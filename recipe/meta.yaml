@@ -1,6 +1,6 @@
 {% set name = "julia-parsers" %}
-{% set version = "2.8.1" %}
-{% set sha256 = "6ea035be48ef5daaecdff62ac8f29c6110aaf20f3349058a4f96e2503f55b693" %}
+{% set version = "2.8.4" %}
+{% set sha256 = "7772a854ede5193281df3420d2766042e1bae13b4423c11e8038acc6b70f58a7" %}
 {% set julia_pkg_name = "Parsers" %}
 {% set julia_pkg_uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0" %}
 {% set julia_pkg_git = "https://github.com/JuliaData/Parsers.jl.git" %}
@@ -10,7 +10,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/JuliaData/Parsers.jl/archive/refs/tags/v{{ version }}.tar.gz 
+  url: https://github.com/JuliaData/Parsers.jl/archive/refs/tags/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
   # Clone the git repository rather than the tarball so Julia can use the git information
   #git_url: {{ git_url }}
